@@ -16,8 +16,11 @@ def getGemini_response(input,image):
     return response.text
 
 
-st.set_page_config(page_title="Image + Text analise")
-st.header("Gemini Image & Text GPT by ATHARV AWLE")
+st.set_page_config(page_title="Image + Text",page_icon="📸")
+st.title("Generative AI LLM + LIM Project by Atharv Awle")
+st.subheader("Text + Images")
+st.sidebar.success("Select a page")
+# st.header("Gemini Image & Text GPT by ATHARV AWLE")
 
 input = st.text_input("Input prompt: " , key="input")
 

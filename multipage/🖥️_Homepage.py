@@ -17,9 +17,10 @@ def getGemini_response(question):
 
 # STREAMLIT APPLICATION
 
-st.set_page_config(page_title="Atharv's LLM application")
-st.header("Atharv Gemini LLM app")
-
+st.set_page_config(page_title="Atharv's LLM application",page_icon="🖥️")
+st.title("Generative AI LLM + LIM Project by Atharv Awle")
+st.subheader("Text only*")
+st.sidebar.success("Select A Page")
 input=st.text_input("Input: " , key="input")
 submit = st.button("Get Response")
 
