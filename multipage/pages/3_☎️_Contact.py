@@ -8,7 +8,7 @@ def main():
 
     st.title("Contact Me")
 
-    st.image("assets/techguy.jpeg", width=500) 
+    # st.image("assets/techguy.jpeg", width=500) 
     st.header("About Me")
     st.write("""
         Hello! I'm Atharv Awle, a passionate individual dedicated to making a difference through technology.
