@@ -20,7 +20,8 @@ st.set_page_config(page_title="Image + Text",page_icon="📸")
 st.title("Generative AI LLM + LIM Project by Atharv Awle")
 st.subheader("Text + Images")
 st.sidebar.success("Select a page")
-# st.header("Gemini Image & Text GPT by ATHARV AWLE")
+st.header("Gemini Image & Text GPT by ATHARV AWLE")
+# this is a basic initial push
 
 input = st.text_input("Input prompt: " , key="input")
 
